@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@200&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 5vw;
+    padding: 30px 0px;
+    height: 15vh;
+}
+
+.logo {
+    justify-content: flex-start;
+    font-size: 1.8em;
+    font-family: 'Courgette', cursive;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.nav-links li:hover:not(:last-child) {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cta {
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-weight: bolder;
+    border: 2px solid rgb(32, 240, 188);
+    background: transparent;
+}
+
+.cta:hover {
+    background-color: rgb(32, 240, 188);
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+.hero {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 5vw;
+}
+
+.features li {
+    padding: 0px 10px;
+    margin-left: 30px;
+}
+
+.features li:first-child {
+    list-style: none;
+}
+
+.hero .cta {
+    transform: scale(1.2);
+}
+
+.hero .cta:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 10vh;
+    background: rgb(1, 19, 17);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer h1 {
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+}
+
+.social i {
+    padding-left: 40px;
+}
+
+.social i:hover {
+    transform: scale(0.99);
+    color: rgb(151, 148, 148);
+}
