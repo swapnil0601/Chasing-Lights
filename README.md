@@ -2,10 +2,10 @@
 Landing Page using HTML and CSS
 
 ## 🔗 Links
+URL -
+- [GitHub Live URL](https://swapnil0601.github.io/Chasing-Lights/)
 
-- Solution URL: [GitHub Page](https://swapnil0601.github.io/Chasing-Lights/)
-
-- Live Site URL: [Vercel Live URL](https://chasing-lights.vercel.app/)
+- [Vercel Live URL](https://chasing-lights.vercel.app/)
 
 ## Authors
 
